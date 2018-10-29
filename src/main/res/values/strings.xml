@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">partner</string>
+    <string name="login_bt">登录</string>
+    <string name="reg">注册</string>
+</resources>

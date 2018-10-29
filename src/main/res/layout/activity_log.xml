@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/login_avatar"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@mipmap/ic_launcher_round"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="48dp"/>
+
+    <EditText
+        android:id="@+id/login_user_text"
+
+        android:layout_width="320dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="48dp"
+        android:hint="账号"
+        android:paddingLeft="8dp"
+        android:text="admin" />
+
+    <EditText
+        android:id="@+id/login_password_text"
+
+        android:layout_width="320dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:hint="密码"
+        android:paddingLeft="8dp"
+        android:text="aaaaaa" />
+    <Button
+        android:layout_marginTop="60dp"
+        android:id="@+id/login_login_bt"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="@string/login_bt"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:paddingLeft="10dp"
+        android:layout_gravity="center"
+        android:background="@color/login_bt"/>
+    <Button
+        android:layout_marginTop="28dp"
+        android:id="@+id/login_register_bt"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="@string/reg"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:paddingLeft="10dp"
+        android:layout_gravity="center"/>
+</LinearLayout>
